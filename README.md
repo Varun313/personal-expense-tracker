@@ -65,6 +65,56 @@ The application provides basic financial insights including:
 - Income and expense comparison
 - Overall financial balance
 
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Varun313/personal-expense-tracker.git
+cd personal-expense-tracker
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the Virtual Environment
+
+Windows PowerShell:
+
+```powershell
+venv\Scripts\activate
+```
+
+### 4. Run the Application
+
+```bash
+python app.py
+```
+
+No external Python packages are required because the project uses Python's built-in libraries.
+
+## Usage
+
+After starting the application, choose an option from the main menu:
+
+1. Add Income
+2. Add Expense
+3. View Transactions
+4. Financial Summary
+5. Search Transactions
+6. Filter Transactions
+7. Filter by Date
+8. Monthly Analytics
+9. Category Analytics
+10. Edit Transaction
+11. Delete Transaction
+12. Exit
+
+Transaction data is stored locally in JSON format.
+
 ## Technology Stack
 
 - Python
@@ -80,8 +130,16 @@ Personal Expense Tracker
 │
 ├── app.py
 ├── README.md
+├── LICENSE
 ├── requirements.txt
 ├── .gitignore
+│
+├── screenshots/
+│   ├── main-menu.png
+│   ├── expenses-menu.png
+│   ├── financial-summary.png
+│   ├── monthly-analytics.png
+│   └── transaction-summary.png
 │
 ├── data/
 │   └── expenses.json
@@ -95,3 +153,8 @@ Personal Expense Tracker
     ├── calculations.py
     ├── storage.py
     └── validators.py
+```
+
+## License
+
+This project is licensed under the MIT License.
