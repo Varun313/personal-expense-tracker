@@ -8,6 +8,30 @@ Personal Expense Tracker allows users to record and manage their daily financial
 
 The application stores transaction data locally using JSON and provides tools for searching, filtering, editing, deleting, and analyzing financial records.
 
+## Screenshots
+
+## Screenshots
+
+### Main Menu
+
+![Main Menu](screenshots/main-menu.png)
+
+### Add Expense
+
+![Add Expense](screenshots/add-expense.png)
+
+### Financial Summary
+
+![Financial Summary](screenshots/financial-summary.png)
+
+### Monthly Analytics
+
+![Monthly Analytics](screenshots/monthly-analytics.png)
+
+### Category Analytics
+
+![Category Analytics](screenshots/category-analytics.png)
+
 ## Features
 
 - Add income
