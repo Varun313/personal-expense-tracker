@@ -1,37 +1,55 @@
 # Personal Expense Tracker
 
-A Python-based personal finance application for tracking income,
-expenses, transactions, and financial balance.
+A Python-based personal finance application designed to help users manage income, expenses, transactions, and financial insights through a simple command-line interface.
 
-## Project Status
+## Overview
 
-Active development. The core expense tracking and analytics features are currently implemented.
+Personal Expense Tracker allows users to record and manage their daily financial transactions in one place.
 
-## Current Features
+The application stores transaction data locally using JSON and provides tools for searching, filtering, editing, deleting, and analyzing financial records.
+
+## Features
 
 - Add income
 - Add expenses
 - View all transactions
 - Search transactions
-- Filter transactions by category
-- Filter transactions by type
+- Filter transactions
 - Filter transactions by date
-- Monthly analytics
-- Category-wise spending analytics
-- Calculate total income
-- Calculate total expenses
-- Calculate balance
+- View financial summary
+- View monthly analytics
+- View category analytics
 - Edit transactions
 - Delete transactions
-- Save transaction data using JSON
-- Input validation
+- Validate user input
+- Store transaction data using JSON
 
-## Technology
+## Financial Summary
+
+The application calculates:
+
+- Total income
+- Total expenses
+- Current balance
+
+The balance is calculated based on total income and total expenses.
+
+## Analytics
+
+The application provides basic financial insights including:
+
+- Monthly transaction analysis
+- Category-based expense analysis
+- Income and expense comparison
+- Overall financial balance
+
+## Technology Stack
 
 - Python
 - JSON
 - Git
 - GitHub
+- VS Code
 
 ## Project Structure
 
@@ -46,12 +64,14 @@ Personal Expense Tracker
 ├── data/
 │   └── expenses.json
 │
+├── ui/
+│   ├── analytics.py
+│   ├── dashboard.py
+│   └── transactions.py
+│
 ├── utils/
 │   ├── calculations.py
 │   ├── storage.py
 │   └── validators.py
 │
-└── ui/
-    ├── dashboard.py
-    ├── transactions.py
-    └── analytics.py
+└── venv/
