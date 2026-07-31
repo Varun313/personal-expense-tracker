@@ -69,9 +69,7 @@ Personal Expense Tracker
 │   ├── dashboard.py
 │   └── transactions.py
 │
-├── utils/
-│   ├── calculations.py
-│   ├── storage.py
-│   └── validators.py
-│
-└── venv/
+└── utils/
+    ├── calculations.py
+    ├── storage.py
+    └── validators.py
