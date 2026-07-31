@@ -10,15 +10,13 @@ The application stores transaction data locally using JSON and provides tools fo
 
 ## Screenshots
 
-## Screenshots
-
 ### Main Menu
 
 ![Main Menu](screenshots/main-menu.png)
 
-### Add Expense
+### Add Expenses
 
-![Add Expense](screenshots/add-expense.png)
+![Add Expenses](screenshots/expenses-menu.png)
 
 ### Financial Summary
 
@@ -30,7 +28,7 @@ The application stores transaction data locally using JSON and provides tools fo
 
 ### Category Analytics
 
-![Category Analytics](screenshots/category-analytics.png)
+![Category Analytics](screenshots/transaction-summary.png)
 
 ## Features
 
