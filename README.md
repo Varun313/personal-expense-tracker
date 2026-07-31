@@ -65,6 +65,16 @@ The application provides basic financial insights including:
 - Income and expense comparison
 - Overall financial balance
 
+## Future Improvements
+
+- Add a graphical user interface
+- Add data visualization with charts
+- Add budget planning and tracking
+- Add recurring income and expense support
+- Add CSV export and import
+- Add advanced financial reports
+- Add improved transaction categorization
+
 ## Installation
 
 ### 1. Clone the Repository
